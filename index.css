@@ -1,0 +1,164 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+}
+
+#header-img{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Pesto';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img{
+    width: 8rem;
+    height: 6rem;
+    top: 0;
+    left: 0;
+}
+
+#nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    font-size: 20px;
+    font-family: 'Modeka';
+    font-weight: bold;
+}
+
+#video{
+    width: 600px;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.home{
+    display: flex;
+    font-family: 'Roboto';
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    margin-left: 7%;
+    gap: 2rem;
+    text-align: center;
+}
+
+#email-label{
+    font-size: 16px;
+    
+}
+
+#email{
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+    margin-left: 30%;
+}
+
+#submit{
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    margin-left: 37%;
+}
+
+.about{
+    font-family: 'lora';
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+}
+
+.h1{
+    font-family: 'Modeka';
+}
+
+.type{
+    margin-left: 6%;
+    width: 500px;
+}
+
+.ramen-type{
+    line-height: 30px;
+}
+
+.ramen-img{
+    width: 500px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    font-family: 'Rightous';
+}
+
+.h2{
+    font-family: 'Modeka';
+}
+.contact-img{
+    width: 500px;
+}
+
+.contact-us{
+    margin-bottom: 4%;
+}
+
+a{
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+    margin-top: 5%;
+}
+
+
+.footer-img{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-icon3{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+@font-face {
+    font-family: Pesto;
+    src: url(./font/Pesto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Modeka;
+    src: url(./font/Modeka.otf);
+}
+
+@font-face {
+    font-family: lora;
+    src: url(./font/Lora-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Rightous;
+    src: url(./font/Righteous-Regular.ttf);
+}
